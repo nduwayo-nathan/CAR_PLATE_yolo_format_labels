@@ -7,8 +7,6 @@ This repository contains labels for car  plates in YOLO format.
 - [Dataset Structure](#dataset-structure)
 - [YOLO Label Format](#yolo-label-format)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -18,15 +16,7 @@ This project provides annotations for car plates in the YOLO (You Only Look Once
 
 The labeling files are organized as follows:
 
-CAR_PLATE_yolo_format_labels-main/
- │ 
- ├── images/ # Directory for images to be labeled 
- │      ├── example.jpg # Example image 
- │    
- ├── labels/ # Directory for YOLO format labels 
- │      ├── example.txt # Example label corresponding to example.jpg 
- │ 
- └── README.md # Project description and details
+CAR_PLATE_yolo_format_labels-main/ │ ├── images/ # Directory for images to be labeled │ ├── example.jpg # Example image │ ├── labels/ # Directory for YOLO format labels │ ├── example.txt # Example label corresponding to example.jpg │ └── README.md # Project description and details
 
 
 Each label file in the `labels/` directory corresponds to an image file in the `images/` directory.
@@ -50,10 +40,6 @@ All values are normalized between 0 and 1, where the dimensions are relative to 
 1. Place your images in the `images/` directory.
 2. Create corresponding YOLO format label files in the `labels/` directory, ensuring that each label file has the same name as the image file (but with a `.txt` extension).
 
-## Contributing
 
-Feel free to contribute by submitting pull requests to improve the labeling quality or add more car plate images.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
