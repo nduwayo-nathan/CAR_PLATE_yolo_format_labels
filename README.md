@@ -16,7 +16,12 @@ This project provides annotations for car plates in the YOLO (You Only Look Once
 
 The labeling files are organized as follows:
 
-CAR_PLATE_yolo_format_labels-main/ │ ├── images/ # Directory for images to be labeled │ ├── example.jpg # Example image │ ├── labels/ # Directory for YOLO format labels │ ├── example.txt # Example label corresponding to example.jpg │ └── README.md # Project description and details
+- `CAR_PLATE_yolo_format_labels-main/`
+  - `images/` – Directory for images to be labeled
+    - `example.jpg` – Example image
+  - `labels/` – Directory for YOLO format labels
+    - `example.txt` – Example label corresponding to example.jpg
+  - `README.md` – Project description and details
 
 
 Each label file in the `labels/` directory corresponds to an image file in the `images/` directory.
